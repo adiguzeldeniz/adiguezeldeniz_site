@@ -40,7 +40,7 @@ function App() {
             <h1 className="hero-title">Deniz Adigüzel</h1>
             <p className="hero-subtitle">Physicist & Researcher</p>
             <p className="hero-description">
-              M.Sc. Physics student at University of Heidelberg, currently on Erasmus exchange at University of Copenhagen.
+              M.Sc. Physics student at University of Heidelberg, currently writing my master's thesis at the Max Planck Institute for Nuclear Physics (MPIK).
               Specializing in Quantum Optics, X-ray Quantum Dynamics, and Mathematical Physics.
             </p>
             <div className="hero-buttons">
@@ -56,9 +56,9 @@ function App() {
           <h2 className="section-title">About Me</h2>
           <div className="about-content">
             <p>
-              I am a second-semester physics Master's student at the University of Heidelberg, currently participating
-              in an Erasmus exchange program at the University of Copenhagen. I am also part of the EFEQT network
-              under the DigiQ program, a complementary master's program in quantum technologies.
+              I am a third-semester physics Master's student at the University of Heidelberg, currently writing my
+              master's thesis at the Max Planck Institute for Nuclear Physics (MPIK). I completed an Erasmus exchange
+              at the University of Copenhagen from August 2024 to July 2025.
             </p>
             <p>
               My research interests lie at the intersection of quantum optics and X-ray physics, with a particular
@@ -98,24 +98,13 @@ function App() {
             <div className="timeline-item">
               <div className="timeline-marker"></div>
               <div className="timeline-content">
-                <span className="timeline-date">2024 – Present</span>
-                <h3>M.Sc. in Physics</h3>
-                <h4>University of Copenhagen, Denmark</h4>
-                <p><strong>Relevant coursework:</strong> Scientific Computing, Condensed Matter Theory,
-                   Experimental X-ray Physics, Quantum Field Theory</p>
-              </div>
-            </div>
-
-            <div className="timeline-item">
-              <div className="timeline-marker"></div>
-              <div className="timeline-content">
-                <span className="timeline-date">2024 – Present</span>
+                <span className="timeline-date">2023 – Present</span>
                 <h3>M.Sc. in Physics</h3>
                 <h4>University of Heidelberg, Germany</h4>
                 <ul>
-                  <li>Currently studying in Copenhagen as part of an Erasmus exchange program</li>
-                  <li>Participant in the EFEQT network under the DigiQ program</li>
-                  <li><strong>Relevant coursework:</strong> Theoretical Quantum Optics, Advanced Quantum Theory</li>
+                  <li>Currently writing master's thesis at Max Planck Institute for Nuclear Physics (MPIK)</li>
+                  <li>Completed Erasmus exchange at University of Copenhagen (Aug 2024 - July 2025)</li>
+                  <li><strong>Relevant coursework:</strong> Theoretical Quantum Optics, Advanced Quantum Theory, Scientific Computing, Condensed Matter Theory, Experimental X-ray Physics, Quantum Field Theory</li>
                 </ul>
               </div>
             </div>
@@ -153,10 +142,21 @@ function App() {
           <div className="research-item">
             <div className="research-header">
               <div>
+                <h3>Master's Thesis</h3>
+                <h4>Max Planck Institute for Nuclear Physics (MPIK), Heidelberg, Germany</h4>
+              </div>
+              <span className="research-date">Aug 2025 – Present</span>
+            </div>
+            <p>Currently conducting research for master's thesis in X-ray quantum optics.</p>
+          </div>
+
+          <div className="research-item">
+            <div className="research-header">
+              <div>
                 <h3>Research Internship</h3>
                 <h4>Niels Bohr Institute, Copenhagen, Denmark</h4>
               </div>
-              <span className="research-date">Sep 2024 – Jan 2025</span>
+              <span className="research-date">Aug 2024 – July 2025</span>
             </div>
             <p className="research-grade">Grade: 1.0</p>
             <p className="research-title"><strong>Analyzing Properties in Microwave-Resonator Integrated Quantum Photonics</strong></p>
@@ -269,7 +269,7 @@ function App() {
               <div className="contact-item">
                 <Mail className="contact-icon" />
                 <h3>Email</h3>
-                <a href="mailto:deniz@adiguezeldeniz.com">deniz@adiguezeldeniz.com</a>
+                <a href="mailto:deniz.adiguezel@mpi-hd.mpg.de">deniz.adiguezel@mpi-hd.mpg.de</a>
               </div>
               <div className="contact-item">
                 <Phone className="contact-icon" />
@@ -284,7 +284,7 @@ function App() {
               <div className="contact-item">
                 <GraduationCap className="contact-icon" />
                 <h3>Location</h3>
-                <p>Copenhagen, Denmark (Currently)<br />Heidelberg, Germany</p>
+                <p>Heidelberg, Germany</p>
               </div>
             </div>
           </div>
@@ -295,7 +295,7 @@ function App() {
         <div className="container">
           <p>&copy; {new Date().getFullYear()} Deniz Adigüzel. All rights reserved.</p>
           <div className="footer-links">
-            <a href="mailto:deniz@adiguezeldeniz.com">Email</a>
+            <a href="mailto:deniz.adiguezel@mpi-hd.mpg.de">Email</a>
             <a href="https://www.linkedin.com/in/deniz-adig%C3%BCzel-2ba005210" target="_blank" rel="noopener">LinkedIn</a>
           </div>
         </div>
