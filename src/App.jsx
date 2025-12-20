@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Mail, Phone, Linkedin, ExternalLink, Award, BookOpen, GraduationCap, Microscope, Calendar } from 'lucide-react'
+import { Mail, Phone, Linkedin, ExternalLink, Award, BookOpen, GraduationCap, Microscope, Calendar, FileDown } from 'lucide-react'
 
 function App() {
   const [scrolled, setScrolled] = useState(false)
@@ -36,16 +36,25 @@ function App() {
 
       <section className="hero">
         <div className="container">
-          <div className="hero-content">
-            <h1 className="hero-title">Deniz Adigüzel</h1>
-            <p className="hero-subtitle">Physicist & Researcher</p>
-            <p className="hero-description">
-              M.Sc. Physics student at University of Heidelberg, currently writing my master's thesis at the Max Planck Institute for Nuclear Physics (MPIK).
-              Specializing in Quantum Optics, X-ray Quantum Dynamics, and Mathematical Physics.
-            </p>
-            <div className="hero-buttons">
-              <button onClick={() => scrollToSection('contact')} className="btn btn-primary">Get in Touch</button>
-              <button onClick={() => scrollToSection('research')} className="btn btn-secondary">View Research</button>
+          <div className="hero-wrapper">
+            <div className="hero-content">
+              <h1 className="hero-title">Deniz Adigüzel</h1>
+              <p className="hero-subtitle">Physicist & Researcher</p>
+              <p className="hero-description">
+                M.Sc. Physics student at University of Heidelberg, currently writing my master's thesis at the Max Planck Institute for Nuclear Physics (MPIK).
+                Specializing in Quantum Optics, X-ray Quantum Dynamics, and Mathematical Physics.
+              </p>
+              <div className="hero-buttons">
+                <button onClick={() => scrollToSection('contact')} className="btn btn-primary">Get in Touch</button>
+                <button onClick={() => scrollToSection('research')} className="btn btn-secondary">View Research</button>
+                <a href="/CV.pdf" download className="btn btn-outline">
+                  <FileDown size={20} />
+                  Download CV
+                </a>
+              </div>
+            </div>
+            <div className="hero-image">
+              <img src="/me.jpg" alt="Deniz Adigüzel" />
             </div>
           </div>
         </div>
@@ -282,6 +291,11 @@ function App() {
                 <a href="https://www.linkedin.com/in/deniz-adig%C3%BCzel-2ba005210" target="_blank" rel="noopener">View Profile</a>
               </div>
               <div className="contact-item">
+                <BookOpen className="contact-icon" />
+                <h3>Google Scholar</h3>
+                <a href="https://scholar.google.com/citations?hl=en&user=K9Qka4gAAAAJ" target="_blank" rel="noopener">View Publications</a>
+              </div>
+              <div className="contact-item">
                 <GraduationCap className="contact-icon" />
                 <h3>Location</h3>
                 <p>Heidelberg, Germany</p>
@@ -297,6 +311,7 @@ function App() {
           <div className="footer-links">
             <a href="mailto:deniz.adiguezel@mpi-hd.mpg.de">Email</a>
             <a href="https://www.linkedin.com/in/deniz-adig%C3%BCzel-2ba005210" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://scholar.google.com/citations?hl=en&user=K9Qka4gAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
           </div>
         </div>
       </footer>
