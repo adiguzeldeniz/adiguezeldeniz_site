@@ -39,7 +39,6 @@ function App() {
           <div className="hero-wrapper">
             <div className="hero-content">
               <h1 className="hero-title">Deniz Adigüzel</h1>
-              <p className="hero-subtitle">Physicist & Researcher</p>
               <p className="hero-description">
                 M.Sc. Physics student at University of Heidelberg, currently writing my master's thesis at the Max Planck Institute for Nuclear Physics (MPIK).
                 Specializing in Quantum Optics, X-ray Quantum Dynamics, and Mathematical Physics.
@@ -156,7 +155,7 @@ function App() {
               </div>
               <span className="research-date">Aug 2025 – Present</span>
             </div>
-            <p>Currently conducting research for master's thesis in X-ray quantum optics.</p>
+            <p>Currently conducting research for master's thesis in X-ray quantum optics, focusing on nuclear small angle x-ray scattering (NRSAXS) </p>
           </div>
 
           <div className="research-item">
