@@ -112,7 +112,7 @@ function App() {
             <div className="timeline-item">
               <div className="timeline-marker"></div>
               <div className="timeline-content">
-                <span className="timeline-date">2023 – Present</span>
+                <span className="timeline-date">2024 – Present</span>
                 <h3>M.Sc. in Physics</h3>
                 <h4>University of Heidelberg, Germany</h4>
                 <ul>
