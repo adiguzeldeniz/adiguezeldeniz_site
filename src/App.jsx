@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Mail, Phone, Linkedin, ExternalLink, Award, BookOpen, GraduationCap, Microscope, Calendar, FileDown } from 'lucide-react'
 
 function App() {
