@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Mail, Phone, Linkedin, ExternalLink, Award, BookOpen, GraduationCap, Microscope, Calendar, FileDown } from 'lucide-react'
+import.meta.env.BASE_URL
+
 
 function App() {
   const [scrolled, setScrolled] = useState(false)
@@ -46,14 +48,18 @@ function App() {
               <div className="hero-buttons">
                 <button onClick={() => scrollToSection('contact')} className="btn btn-primary">Get in Touch</button>
                 <button onClick={() => scrollToSection('research')} className="btn btn-secondary">View Research</button>
-                <a href="/CV.pdf" download className="btn btn-outline">
+                <a
+                  href={`${import.meta.env.BASE_URL}CV.pdf`}
+                  download
+                  className="btn btn-outline"
+                >
                   <FileDown size={20} />
                   Download CV
                 </a>
               </div>
             </div>
             <div className="hero-image">
-              <img src="/me.jpg" alt="Deniz Adigüzel" />
+              <img src={`${import.meta.env.BASE_URL}me.jpg`} alt="Deniz Adigüzel" />
             </div>
           </div>
         </div>
