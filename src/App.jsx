@@ -286,16 +286,6 @@ function App() {
                 <a href="mailto:deniz.adiguezel@mpi-hd.mpg.de">deniz.adiguezel@mpi-hd.mpg.de</a>
               </div>
               <div className="contact-item">
-                <Phone className="contact-icon" />
-                <h3>Phone</h3>
-                <a href="tel:+4917352539">+49 173 525 3932</a>
-              </div>
-              <div className="contact-item">
-                <Linkedin className="contact-icon" />
-                <h3>LinkedIn</h3>
-                <a href="https://www.linkedin.com/in/deniz-adig%C3%BCzel-2ba005210" target="_blank" rel="noopener">View Profile</a>
-              </div>
-              <div className="contact-item">
                 <BookOpen className="contact-icon" />
                 <h3>Google Scholar</h3>
                 <a href="https://scholar.google.com/citations?hl=en&user=K9Qka4gAAAAJ" target="_blank" rel="noopener">View Publications</a>
@@ -315,7 +305,7 @@ function App() {
           <p>&copy; {new Date().getFullYear()} Deniz Adigüzel. All rights reserved.</p>
           <div className="footer-links">
             <a href="mailto:deniz.adiguezel@mpi-hd.mpg.de">Email</a>
-            <a href="https://www.linkedin.com/in/deniz-adig%C3%BCzel-2ba005210" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="  " target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://scholar.google.com/citations?hl=en&user=K9Qka4gAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
           </div>
         </div>
